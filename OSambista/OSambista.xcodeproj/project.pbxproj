@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A22458222AF419B900F0BF2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22458212AF419B900F0BF2E /* AppDelegate.swift */; };
 		A22458242AF419B900F0BF2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22458232AF419B900F0BF2E /* SceneDelegate.swift */; };
-		A22458262AF419B900F0BF2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22458252AF419B900F0BF2E /* ViewController.swift */; };
 		A224582C2AF419B900F0BF2E /* OSambista.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A224582A2AF419B900F0BF2E /* OSambista.xcdatamodeld */; };
 		A224582E2AF419BC00F0BF2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A224582D2AF419BC00F0BF2E /* Assets.xcassets */; };
 		A22458312AF419BC00F0BF2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A224582F2AF419BC00F0BF2E /* LaunchScreen.storyboard */; };
@@ -19,6 +18,14 @@
 		A22458642AF41E7D00F0BF2E /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22458632AF41E7D00F0BF2E /* UIColor+Extension.swift */; };
 		A22458662AF41EC200F0BF2E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22458652AF41EC200F0BF2E /* BaseViewController.swift */; };
 		A22458682AF41EFF00F0BF2E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22458672AF41EFF00F0BF2E /* TabBarController.swift */; };
+		A224586A2AF4251800F0BF2E /* StartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22458692AF4251800F0BF2E /* StartVC.swift */; };
+		A224586C2AF4257F00F0BF2E /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A224586B2AF4257F00F0BF2E /* StartView.swift */; };
+		A224586E2AF4259200F0BF2E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A224586D2AF4259200F0BF2E /* LoginView.swift */; };
+		A22458702AF4259E00F0BF2E /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A224586F2AF4259E00F0BF2E /* RegisterView.swift */; };
+		A22458722AF425AC00F0BF2E /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22458712AF425AC00F0BF2E /* ForgotPasswordView.swift */; };
+		A22458762AF425E700F0BF2E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22458752AF425E700F0BF2E /* LoginVC.swift */; };
+		A22458782AF425F300F0BF2E /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22458772AF425F300F0BF2E /* RegisterVC.swift */; };
+		A224587A2AF4260300F0BF2E /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22458792AF4260300F0BF2E /* ForgotPasswordVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +49,6 @@
 		A224581E2AF419B900F0BF2E /* OSambista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSambista.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22458212AF419B900F0BF2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A22458232AF419B900F0BF2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A22458252AF419B900F0BF2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A224582B2AF419B900F0BF2E /* OSambista.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OSambista.xcdatamodel; sourceTree = "<group>"; };
 		A224582D2AF419BC00F0BF2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A22458302AF419BC00F0BF2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +61,14 @@
 		A22458632AF41E7D00F0BF2E /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		A22458652AF41EC200F0BF2E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		A22458672AF41EFF00F0BF2E /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		A22458692AF4251800F0BF2E /* StartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartVC.swift; sourceTree = "<group>"; };
+		A224586B2AF4257F00F0BF2E /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		A224586D2AF4259200F0BF2E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A224586F2AF4259E00F0BF2E /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		A22458712AF425AC00F0BF2E /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		A22458752AF425E700F0BF2E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		A22458772AF425F300F0BF2E /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		A22458792AF4260300F0BF2E /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +126,6 @@
 				A22458582AF41D2E00F0BF2E /* Components */,
 				A22458572AF41D2600F0BF2E /* Models */,
 				A22458562AF41D0E00F0BF2E /* Sections */,
-				A22458252AF419B900F0BF2E /* ViewController.swift */,
 				A224582A2AF419B900F0BF2E /* OSambista.xcdatamodeld */,
 			);
 			path = OSambista;
@@ -224,6 +237,10 @@
 		A224585E2AF41E0500F0BF2E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				A22458692AF4251800F0BF2E /* StartVC.swift */,
+				A22458752AF425E700F0BF2E /* LoginVC.swift */,
+				A22458772AF425F300F0BF2E /* RegisterVC.swift */,
+				A22458792AF4260300F0BF2E /* ForgotPasswordVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -231,6 +248,10 @@
 		A224585F2AF41E0F00F0BF2E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A224586B2AF4257F00F0BF2E /* StartView.swift */,
+				A224586D2AF4259200F0BF2E /* LoginView.swift */,
+				A224586F2AF4259E00F0BF2E /* RegisterView.swift */,
+				A22458712AF425AC00F0BF2E /* ForgotPasswordView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -386,13 +407,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A22458262AF419B900F0BF2E /* ViewController.swift in Sources */,
 				A224582C2AF419B900F0BF2E /* OSambista.xcdatamodeld in Sources */,
+				A22458722AF425AC00F0BF2E /* ForgotPasswordView.swift in Sources */,
+				A22458762AF425E700F0BF2E /* LoginVC.swift in Sources */,
+				A22458702AF4259E00F0BF2E /* RegisterView.swift in Sources */,
 				A22458222AF419B900F0BF2E /* AppDelegate.swift in Sources */,
 				A22458242AF419B900F0BF2E /* SceneDelegate.swift in Sources */,
+				A224586E2AF4259200F0BF2E /* LoginView.swift in Sources */,
+				A224586C2AF4257F00F0BF2E /* StartView.swift in Sources */,
+				A224587A2AF4260300F0BF2E /* ForgotPasswordVC.swift in Sources */,
 				A22458682AF41EFF00F0BF2E /* TabBarController.swift in Sources */,
+				A224586A2AF4251800F0BF2E /* StartVC.swift in Sources */,
 				A22458642AF41E7D00F0BF2E /* UIColor+Extension.swift in Sources */,
 				A22458662AF41EC200F0BF2E /* BaseViewController.swift in Sources */,
+				A22458782AF425F300F0BF2E /* RegisterVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
