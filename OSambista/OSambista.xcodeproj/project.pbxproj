@@ -16,6 +16,9 @@
 		A224583C2AF419BC00F0BF2E /* OSambistaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A224583B2AF419BC00F0BF2E /* OSambistaTests.swift */; };
 		A22458462AF419BC00F0BF2E /* OSambistaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22458452AF419BC00F0BF2E /* OSambistaUITests.swift */; };
 		A22458482AF419BC00F0BF2E /* OSambistaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22458472AF419BC00F0BF2E /* OSambistaUITestsLaunchTests.swift */; };
+		A22458642AF41E7D00F0BF2E /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22458632AF41E7D00F0BF2E /* UIColor+Extension.swift */; };
+		A22458662AF41EC200F0BF2E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22458652AF41EC200F0BF2E /* BaseViewController.swift */; };
+		A22458682AF41EFF00F0BF2E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22458672AF41EFF00F0BF2E /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		A22458412AF419BC00F0BF2E /* OSambistaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSambistaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22458452AF419BC00F0BF2E /* OSambistaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSambistaUITests.swift; sourceTree = "<group>"; };
 		A22458472AF419BC00F0BF2E /* OSambistaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSambistaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A22458632AF41E7D00F0BF2E /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		A22458652AF41EC200F0BF2E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A22458672AF41EFF00F0BF2E /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +105,14 @@
 		A22458202AF419B900F0BF2E /* OSambista */ = {
 			isa = PBXGroup;
 			children = (
-				A22458212AF419B900F0BF2E /* AppDelegate.swift */,
-				A22458232AF419B900F0BF2E /* SceneDelegate.swift */,
+				A22458542AF41CE900F0BF2E /* Utils */,
+				A22458552AF41CF800F0BF2E /* Start */,
+				A224585A2AF41D4C00F0BF2E /* Resources */,
+				A22458592AF41D3E00F0BF2E /* Extensions */,
+				A22458582AF41D2E00F0BF2E /* Components */,
+				A22458572AF41D2600F0BF2E /* Models */,
+				A22458562AF41D0E00F0BF2E /* Sections */,
 				A22458252AF419B900F0BF2E /* ViewController.swift */,
-				A224582D2AF419BC00F0BF2E /* Assets.xcassets */,
-				A224582F2AF419BC00F0BF2E /* LaunchScreen.storyboard */,
-				A22458322AF419BC00F0BF2E /* Info.plist */,
 				A224582A2AF419B900F0BF2E /* OSambista.xcdatamodeld */,
 			);
 			path = OSambista;
@@ -125,6 +133,127 @@
 				A22458472AF419BC00F0BF2E /* OSambistaUITestsLaunchTests.swift */,
 			);
 			path = OSambistaUITests;
+			sourceTree = "<group>";
+		};
+		A22458542AF41CE900F0BF2E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A22458552AF41CF800F0BF2E /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				A22458212AF419B900F0BF2E /* AppDelegate.swift */,
+				A22458232AF419B900F0BF2E /* SceneDelegate.swift */,
+				A224582F2AF419BC00F0BF2E /* LaunchScreen.storyboard */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		A22458562AF41D0E00F0BF2E /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				A224585C2AF41DE000F0BF2E /* Start */,
+				A224585B2AF41DD400F0BF2E /* TabBar */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		A22458572AF41D2600F0BF2E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A22458582AF41D2E00F0BF2E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A22458652AF41EC200F0BF2E /* BaseViewController.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A22458592AF41D3E00F0BF2E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A22458632AF41E7D00F0BF2E /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A224585A2AF41D4C00F0BF2E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A224582D2AF419BC00F0BF2E /* Assets.xcassets */,
+				A22458322AF419BC00F0BF2E /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A224585B2AF41DD400F0BF2E /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A22458622AF41E2800F0BF2E /* Views */,
+				A22458612AF41E2000F0BF2E /* ViewControllers */,
+				A22458602AF41E1A00F0BF2E /* Cells */,
+				A22458672AF41EFF00F0BF2E /* TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		A224585C2AF41DE000F0BF2E /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				A224585F2AF41E0F00F0BF2E /* Views */,
+				A224585E2AF41E0500F0BF2E /* ViewControllers */,
+				A224585D2AF41DF500F0BF2E /* Cells */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		A224585D2AF41DF500F0BF2E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A224585E2AF41E0500F0BF2E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A224585F2AF41E0F00F0BF2E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A22458602AF41E1A00F0BF2E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A22458612AF41E2000F0BF2E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A22458622AF41E2800F0BF2E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +390,9 @@
 				A224582C2AF419B900F0BF2E /* OSambista.xcdatamodeld in Sources */,
 				A22458222AF419B900F0BF2E /* AppDelegate.swift in Sources */,
 				A22458242AF419B900F0BF2E /* SceneDelegate.swift in Sources */,
+				A22458682AF41EFF00F0BF2E /* TabBarController.swift in Sources */,
+				A22458642AF41E7D00F0BF2E /* UIColor+Extension.swift in Sources */,
+				A22458662AF41EC200F0BF2E /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +563,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GAH82THXNC;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = OSambista/Info.plist;
+				INFOPLIST_FILE = OSambista/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -459,7 +591,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GAH82THXNC;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = OSambista/Info.plist;
+				INFOPLIST_FILE = OSambista/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
