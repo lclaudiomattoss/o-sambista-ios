@@ -7,55 +7,53 @@
 
 import SwiftUI
 
-struct TabBarController : View {
-    let tabList: [String] = ["home", "heart", "", "dumbbell", "camera"]
-    @State private var selectedTabBar = "home"
-    @State public var xOffSet: CGFloat = 0
-    init() { UITabBar.appearance().isHidden = true }
+struct TabBarController: View {
+    
+    init() {
+        // Defina a cor de destaque desejada para a aba selecionada
+        UITabBar.appearance().unselectedItemTintColor = UIColor.black
+    }
     
     var body: some View {
-        ZStack (alignment: Alignment(horizontal: .center,
-                                     vertical: .bottom)) {
-            TabView(selection: $selectedTabBar) {
-                if selectedTabBar == tabList[0] {
-                    NewsView()
-                } else if selectedTabBar == tabList[1] {
-                    ForumView()
-                } else if selectedTabBar == tabList[2] {
-                    Color.orange.ignoresSafeArea()
-                } else if selectedTabBar == tabList[3] {
-                    MuseumView()
-                } else {
-                    Color.green.ignoresSafeArea()
+        TabView {
+            // Conteúdo da primeira aba
+            NewsView()
+                .tabItem {
+                    Image(systemName: "newspaper.fill")
                 }
-            }
+
+            // Conteúdo da segunda aba
+            ForumView()
+                .tabItem {
+                    Image(systemName: "message.fill")
+                        .foregroundColor(.black)
+                }
             
-            HStack() {
-                ForEach(tabList,id: \.self) { image in
-                    GeometryReader { reader in
-                        TabbarButton(image: image, selectedTabBar:
-                        selectedTabBar, reader: reader) {
-                            withAnimation(Animation.linear(duration: 0.3)) {
-                                selectedTabBar = image
-                                xOffSet = reader.frame(in: .global).minX
-                            }
-                        }
-                        .onAppear(perform: {
-                            if image == tabList.first {
-                                xOffSet = reader.frame(in: .global).minX
-                            }
-                        })
-                    }.frame(width: 30, height: 30)
-                    if image != tabList.last { Spacer(minLength: 0) }
+            // Conteúdo da terceira aba
+            Text("Câmera")
+                .tabItem {
+                    Image(systemName: "camera.on.rectangle.fill")
+                        .foregroundColor(.black)
                 }
-            }
-            .padding(.horizontal, 25).padding(.vertical)
-            .background(Color.white.clipShape(CustomShape(xOffSet: xOffSet)).cornerRadius(10))
-            .padding(.horizontal)
+            
+            // Conteúdo da quarta aba
+            MuseumView()
+                .tabItem {
+                    Image(systemName: "crown.fill")
+                        .foregroundColor(.black)
+                }
+            
+            // Conteúdo da quinta aba
+            ProfileView()
+                .tabItem {
+                    Image(systemName: "person.fill")
+                        .foregroundColor(.black)
+                }
+
+            // Adicione mais abas conforme necessário
         }
     }
 }
-
 
 struct TabBarController_Previews: PreviewProvider {
     static var previews: some View {

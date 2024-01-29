@@ -22,6 +22,7 @@
 		DB2A588E2B4B8CD300B9C4B5 /* TabBarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2A588D2B4B8CD300B9C4B5 /* TabBarShape.swift */; };
 		DB2A58902B4B8CF600B9C4B5 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2A588F2B4B8CF600B9C4B5 /* TabBarController.swift */; };
 		DB2A58922B4B8DC000B9C4B5 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2A58912B4B8DC000B9C4B5 /* NewsView.swift */; };
+		DB51B7ED2B685CA700893BCC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB51B7EC2B685CA700893BCC /* ProfileView.swift */; };
 		DBA976782B4CCE68005051E7 /* ForumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA976772B4CCE68005051E7 /* ForumView.swift */; };
 		DBA9767A2B4CD38F005051E7 /* MuseumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA976792B4CD38F005051E7 /* MuseumView.swift */; };
 		DBE20C092B4B94ED00D38EEF /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE20C082B4B94ED00D38EEF /* AnimalModel.swift */; };
@@ -86,6 +87,7 @@
 		DB2A588D2B4B8CD300B9C4B5 /* TabBarShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarShape.swift; sourceTree = "<group>"; };
 		DB2A588F2B4B8CF600B9C4B5 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		DB2A58912B4B8DC000B9C4B5 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		DB51B7EC2B685CA700893BCC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		DBA976772B4CCE68005051E7 /* ForumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumView.swift; sourceTree = "<group>"; };
 		DBA976792B4CD38F005051E7 /* MuseumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumView.swift; sourceTree = "<group>"; };
 		DBE20C082B4B94ED00D38EEF /* AnimalModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
@@ -241,6 +243,7 @@
 				DB2A58912B4B8DC000B9C4B5 /* NewsView.swift */,
 				DBA976772B4CCE68005051E7 /* ForumView.swift */,
 				DBA976792B4CD38F005051E7 /* MuseumView.swift */,
+				DB51B7EC2B685CA700893BCC /* ProfileView.swift */,
 			);
 			path = FirstViews;
 			sourceTree = "<group>";
@@ -458,6 +461,7 @@
 				DBE20C372B4B97AD00D38EEF /* AnimalListItemView.swift in Sources */,
 				DB2A58802B478B5600B9C4B5 /* LoginView.swift in Sources */,
 				A2EBB0342B327E11007FCBCA /* SambistaSwiftUI.xcdatamodeld in Sources */,
+				DB51B7ED2B685CA700893BCC /* ProfileView.swift in Sources */,
 				DBE20C3A2B4B97AD00D38EEF /* AnimalDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
